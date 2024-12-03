@@ -111,7 +111,7 @@ def power_ball(generated, browser):
 
         # generate / print power number or w/e it's called
         double = gen[5]
-        val = int(math.floor(double * 50) + 1)
+        val = int(math.floor(double * 49) + 1)
         print(val)
 
 # Firefox nextDouble():
