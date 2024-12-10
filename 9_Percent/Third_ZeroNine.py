@@ -55,7 +55,7 @@ def main():
         next_s0 = s1 & 0xFFFFFFFFFFFFFFFF
         next_s1 = s0 & 0xFFFFFFFFFFFFFFFF
         nxt_double = to_double_from_state(next_s0)
-        nxt_val = math.floor(nxt_double * 10)
+        nxt_val = math.floor(nxt_double * 9) + 1
         print("-> :", nxt_val)
     else:
         print("Failed to find a solution.")
