@@ -77,7 +77,7 @@ def main():
         for _ in range(5):
             cur_s0, cur_s1 = xs128p_forward(cur_s0, cur_s1)
             nxt_double = to_double_from_state(cur_s0)
-            num = math.floor(nxt_double * 69) + 1
+            num = math.floor(nxt_double * 49) + 1
             lottery_numbers.append(num)
 
         print("-> :", sorted(lottery_numbers))
